@@ -43,7 +43,7 @@ const Hero = () => {
           >
             Data Engineering
             <span className="block bg-gradient-to-r from-primary to-primary/50 bg-clip-text text-transparent">
-              Expert
+              Enthusiast
             </span>
           </motion.h1>
 
@@ -72,7 +72,7 @@ const Hero = () => {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/resume.pdf" download className="group">
+            <a href="/assets/docs/Elgharbaoui_Abdelghafor_CV.pdf" download className="group">
               Download Resume
               <Download className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
             </a>

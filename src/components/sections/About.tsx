@@ -79,7 +79,7 @@ const About = () => {
 
           <div className="flex justify-center">
             <Button size="lg" asChild>
-              <a href="/assets/docs/resume.pdf" download className="group">
+              <a href="/assets/docs/Elgharbaoui_Abdelghafor_CV.pdf" download className="group">
                 Download Resume
                 <Download className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
               </a>
