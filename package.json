@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
+  "homepage": "https://abdelghafor-gh.github.io/portfolio",
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
@@ -29,6 +32,7 @@
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.33",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
