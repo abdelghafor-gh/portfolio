@@ -5,6 +5,12 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight, Download } from 'lucide-react'
 import Image from 'next/image'
 
+/**
+ * The `Hero` component renders a full-page hero section with an animated profile image,
+ * a title, a description of data engineering expertise, and interactive buttons for
+ * viewing projects and downloading a resume. It also includes a subtle scroll indicator
+ * to encourage users to explore further.
+ */
 const Hero = () => {
   return (
     <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center">
