@@ -3,14 +3,15 @@
 import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 const projects = [
   {
     title: 'Patent Analysis Platform',
     description:
       'A comprehensive platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
-    image: '/projects/patent-analysis.jpg',
-    link: '#',
+    image: '/assets/images/e-patent-data-transformation.png',
+    link: 'https://github.com/Abdelghafor-az/E-Patent',
     stack: [
       'Flask',
       'Spark',
@@ -27,11 +28,11 @@ const projects = [
     ],
   },
   {
-    title: 'Real-Time People Monitoring',
+    title: 'Real-Time Foot Traffic Monitoring',
     description:
       'A real-time foot traffic monitoring system using lambda architecture and computer vision, providing dynamic insights across different zones.',
-    image: '/projects/monitoring.jpg',
-    link: '#',
+    image: 'assets/images/real-time-lambda-architecture.png',
+    link: 'https://github.com/Abdelghafor-az/Real-Time-Foot-Traffic-Monitoring-Lambda-Architecture',
     stack: [
       'Docker',
       'HDFS',
@@ -50,25 +51,25 @@ const projects = [
     ],
   },
   {
-    title: 'HelpDesk Analytics Dashboard',
+    title: 'Management Control Dashboard',
     description:
-      'A comprehensive dashboard for tracking helpdesk tickets and incidents, providing insights by employee and team performance.',
-    image: '/projects/helpdesk.jpg',
-    link: '#',
+      'Developed a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
+    image: '/assets/images/management-control.png',
+    link: 'https://github.com/abdelghafor-gh/Management-Control-Start-Schema-Dashboard',
     stack: ['Power BI', 'DAX', 'Power BI Service'],
     highlights: [
-      'Developed tracking system for tickets and incidents',
+      'Compared Total Sales, Profit, and Units Sold across two time periods',
       'Performed advanced data preprocessing with Power Query',
-      'Created interactive visualizations and key indicators',
-      'Deployed and managed workspace in Power BI Service',
+      'Utilized Start Schema for efficient relationships and performance analysis',
+      'Designed interactive visuals and filters for user-friendly analysis'
     ],
   },
   {
     title: 'Political Opinions Analysis',
     description:
       'Analysis of international opinions on the Palestinian-Israeli conflict through YouTube comments using advanced NLP techniques.',
-    image: '/projects/opinions.jpg',
-    link: '#',
+    image: '/assets/images/top-10-voted.png',
+    link: 'https://github.com/Abdelghafor-az/Political-Opinion-Analysis-on-Palestinian-Israeli-Conflict',
     stack: [
       'BERT',
       'Hugging Face',
@@ -117,11 +118,16 @@ const Projects = () => {
               <div className="aspect-video overflow-hidden">
                 <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-background/90" />
                 {/* Add project image here */}
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
                 <div className="h-full w-full bg-muted" />
               </div>
 
               <div className="relative z-20 -mt-16 space-y-4 p-6">
-                <div className="space-y-2">
+                <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <h3 className="font-semibold">{project.title}</h3>
                     <Button

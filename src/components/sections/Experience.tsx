@@ -14,9 +14,7 @@ const experiences = [
       'Utilized MongoDB Atlas as a vector store for semantic search, enhancing chatbot response generation.',
       'Implemented citation extraction for AI-generated responses and search results.',
       'Developed a document browser with citation-based navigation.',
-      'Integrated next-intl for multilingual support.',
-      'Set up GitLab CI/CD pipeline with Docker Compose.',
-      'Deployed on Azure Kubernetes Service (AKS) using Azure Container Registry.',
+      'Integrated next-intl for multilingual support.'
     ],
     stack: [
       'FastAPI',
@@ -25,9 +23,7 @@ const experiences = [
       'Next.js',
       'Tailwind CSS',
       'PostgreSQL',
-      'Docker',
-      'GitLab CI/CD',
-      'Azure Kubernetes',
+      'Docker'
     ],
   },
   {
@@ -44,7 +40,6 @@ const experiences = [
     stack: [
       'Spring Boot',
       'Kafka',
-      'Docker',
       'Cloudinary',
       'Prometheus',
       'Grafana',
