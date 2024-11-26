@@ -53,7 +53,7 @@ const projects = [
   {
     title: 'Management Control Dashboard',
     description:
-      'Developed a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
+      'Developement of a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
     image: '/assets/images/management-control.png',
     link: 'https://github.com/abdelghafor-gh/Management-Control-Start-Schema-Dashboard',
     stack: ['Power BI', 'DAX', 'Power BI Service'],
