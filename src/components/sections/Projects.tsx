@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 
 const projects = [
   {
@@ -11,7 +10,7 @@ const projects = [
     description:
       'A comprehensive platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
     image: 'assets/images/e-patent-data-transformation.png',
-    link: 'https://github.com/Abdelghafor-az/E-Patent',
+    link: 'https://github.com/abdelghafor-gh/E-Patent',
     stack: [
       'Flask',
       'Spark',
@@ -32,7 +31,7 @@ const projects = [
     description:
       'A real-time foot traffic monitoring system using lambda architecture and computer vision, providing dynamic insights across different zones.',
     image: 'assets/images/real-time-lambda-architecture.png',
-    link: 'https://github.com/Abdelghafor-az/Real-Time-Foot-Traffic-Monitoring-Lambda-Architecture',
+    link: 'https://github.com/abdelghafor-gh/Real-Time-Foot-Traffic-Monitoring-Lambda-Architecture',
     stack: [
       'Docker',
       'HDFS',
@@ -69,7 +68,7 @@ const projects = [
     description:
       'Analysis of international opinions on the Palestinian-Israeli conflict through YouTube comments using advanced NLP techniques.',
     image: 'assets/images/top-10-voted.png',
-    link: 'https://github.com/Abdelghafor-az/Political-Opinion-Analysis-on-Palestinian-Israeli-Conflict',
+    link: 'https://github.com/abdelghafor-gh/Political-Opinion-Analysis-on-Palestinian-Israeli-Conflict',
     stack: [
       'BERT',
       'Hugging Face',

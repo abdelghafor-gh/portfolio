@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Download } from 'lucide-react'
-import Image from 'next/image'
 
 /**
  * The `Hero` component renders a full-page hero section with an animated profile image,
