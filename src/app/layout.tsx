@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Data Engineering Portfolio",
   description: "A showcase of my data engineering projects and skills",
   icons: {
-    icon: "/favicon.ico",
+    icon: "favicon.ico",
   },
 }
 

@@ -31,12 +31,10 @@ const Hero = () => {
           }}
           className="relative mx-auto h-32 w-32 overflow-hidden rounded-full border-4 border-primary bg-primary/10"
         >
-          <Image
-            src="/assets/images/profile.jpg"
+          <img
+            src="assets/images/profile.jpg"
             alt="Abdelghafor Elgharbaoui"
-            fill
             className="scale-150 object-cover object-[95%_35%]"
-            priority
           />
         </motion.div>
 
