@@ -10,7 +10,7 @@ const projects = [
     title: 'Patent Analysis Platform',
     description:
       'A comprehensive platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
-    image: '/assets/images/e-patent-data-transformation.png',
+    image: 'assets/images/e-patent-data-transformation.png',
     link: 'https://github.com/Abdelghafor-az/E-Patent',
     stack: [
       'Flask',
@@ -54,7 +54,7 @@ const projects = [
     title: 'Management Control Dashboard',
     description:
       'Developement of a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
-    image: '/assets/images/management-control.png',
+    image: 'assets/images/management-control.png',
     link: 'https://github.com/abdelghafor-gh/Management-Control-Start-Schema-Dashboard',
     stack: ['Power BI', 'DAX', 'Power BI Service'],
     highlights: [
@@ -68,7 +68,7 @@ const projects = [
     title: 'Political Opinions Analysis',
     description:
       'Analysis of international opinions on the Palestinian-Israeli conflict through YouTube comments using advanced NLP techniques.',
-    image: '/assets/images/top-10-voted.png',
+    image: 'assets/images/top-10-voted.png',
     link: 'https://github.com/Abdelghafor-az/Political-Opinion-Analysis-on-Palestinian-Israeli-Conflict',
     stack: [
       'BERT',
