@@ -38,7 +38,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    
+    console.log(formData)
     if (!formData.name || !formData.email || !formData.message) {
       showToast({
         title: "Error",
@@ -48,23 +48,24 @@ const ContactForm = () => {
       return
     }
 
-    // Check environment variables before sending
-    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
-    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
-    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-
-    if (!serviceId || !templateId || !publicKey) {
-      showToast({
-        title: "Configuration Error",
-        description: "Email service is not properly configured.",
-        variant: "destructive",
-      })
-      return
-    }
-
     setIsLoading(true)
 
     try {
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+      if (!serviceId || !templateId || !publicKey) {
+        throw new Error('EmailJS configuration is missing')
+      }
+
+      console.log('Sending email with:', {
+        serviceId,
+        templateId,
+        publicKey: publicKey.slice(0, 4) + '...',
+        formData
+      })
+
       const result = await emailjs.send(
         serviceId,
         templateId,
@@ -79,6 +80,8 @@ const ContactForm = () => {
         publicKey
       )
 
+      console.log('EmailJS response:', result)
+
       if (result.status === 200) {
         showToast({
           title: "Success!",
@@ -92,6 +95,7 @@ const ContactForm = () => {
         })
       }
     } catch (error) {
+      console.error('EmailJS error:', error)
       showToast({
         title: "Error",
         description: "Failed to send message. Please try again later.",
