@@ -1,10 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Textarea } from '@/components/ui/textarea'
 import { Github, Linkedin, Mail, Send } from 'lucide-react'
+
+import ContactForm from '@/components/sections/ContactForm'
 
 const Contact = () => {
   return (
@@ -51,13 +50,13 @@ const Contact = () => {
                 <span>abdelghaforelgharbaoui@gmail.com</span>
               </a>
               <a
-                href="https://github.com/Abdelghafo-az"
+                href="https://github.com/abdelghafo-gh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground"
               >
                 <Github className="h-4 w-4" />
-                <span>github.com/Abdelghafo-az</span>
+                <span>abdelghafo-gh</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/abdelghafor-elgharbaoui-16a276202/"
@@ -66,87 +65,12 @@ const Contact = () => {
                 className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground"
               >
                 <Linkedin className="h-4 w-4" />
-                <span>linkedin.com/in/abdelghafor-elgharbaoui</span>
+                <span>abdelghafor-elgharbaoui</span>
               </a>
             </div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="space-y-6 rounded-lg border bg-card p-6"
-          >
-            <div className="space-y-2">
-              <h3 className="text-xl font-semibold">Send a Message</h3>
-              <p className="text-sm text-muted-foreground">
-                I'll get back to you as soon as possible.
-              </p>
-            </div>
-
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid gap-4 md:grid-cols-2">
-                <div className="space-y-2">
-                  <label
-                    htmlFor="name"
-                    className="text-sm font-medium text-muted-foreground"
-                  >
-                    Name
-                  </label>
-                  <Input
-                    id="name"
-                    placeholder="John Doe"
-                    className="bg-background"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label
-                    htmlFor="email"
-                    className="text-sm font-medium text-muted-foreground"
-                  >
-                    Email
-                  </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="john@example.com"
-                    className="bg-background"
-                  />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <label
-                  htmlFor="subject"
-                  className="text-sm font-medium text-muted-foreground"
-                >
-                  Subject
-                </label>
-                <Input
-                  id="subject"
-                  placeholder="Data Engineering Project / AI Collaboration / Cloud Architecture"
-                  className="bg-background"
-                />
-              </div>
-              <div className="space-y-2">
-                <label
-                  htmlFor="message"
-                  className="text-sm font-medium text-muted-foreground"
-                >
-                  Message
-                </label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell me about your data engineering needs, AI project ideas, or cloud infrastructure challenges..."
-                  className="min-h-[120px] resize-none bg-background"
-                />
-              </div>
-              <Button type="submit" className="w-full">
-                Send Message
-                <Send className="ml-2 h-4 w-4" />
-              </Button>
-            </form>
-          </motion.div>
+          <ContactForm />
         </div>
       </motion.div>
     </section>
