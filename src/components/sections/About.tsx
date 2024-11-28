@@ -60,7 +60,7 @@ const About = () => {
             <h3 className="text-xl font-semibold">Additional Information</h3>
             <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
               <li>
-                <strong>Languages:</strong> English, French
+                <strong>Languages:</strong> English and French
               </li>
               <li>
                 <strong>Continuous Learning:</strong> Committed to staying updated
@@ -72,14 +72,15 @@ const About = () => {
               </li>
               <li>
                 <strong>Community Engagement:</strong> Participated in national
-                events such as MNPC23 (Moroccan National Programming Contest)
+                events such as MNPC23 (Moroccan National Programming Contest) and 
+                MoroccoAI hackathon 2024
               </li>
             </ul>
           </div>
 
           <div className="flex justify-center">
             <Button size="lg" asChild>
-              <a href="/assets/docs/Elgharbaoui_Abdelghafor_CV.pdf" download className="group">
+              <a href="assets/docs/Abdelghafor_Elgharbaoui_CV.pdf" download className="group">
                 Download Resume
                 <Download className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
               </a>

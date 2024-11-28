@@ -75,7 +75,7 @@ const Hero = () => {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/assets/docs/Elgharbaoui_Abdelghafor_CV.pdf" download className="group">
+            <a href="assets/docs/Abdelghafor_Elgharbaoui_CV.pdf" download className="group">
               Download Resume
               <Download className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
             </a>

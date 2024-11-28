@@ -38,7 +38,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log(formData)
+    
     if (!formData.name || !formData.email || !formData.message) {
       showToast({
         title: "Error",
