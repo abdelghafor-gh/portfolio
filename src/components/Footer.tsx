@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/Abdelghafo-az"
+            href="https://github.com/abdelghafor-gh"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
@@ -20,7 +20,7 @@ const Footer = () => {
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://www.linkedin.com/in/abdelghafor-elgharbaoui-16a276202/"
+            href="https://www.linkedin.com/in/abdelghafor-elgharbaoui/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
