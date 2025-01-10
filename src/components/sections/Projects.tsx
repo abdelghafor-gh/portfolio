@@ -8,7 +8,7 @@ const projects = [
   {
     "title": "Moroccan Universities Scopus Analysis",
     "description": "A comprehensive data analytics platform for analyzing academic publications from Moroccan universities using Scopus data, featuring data warehousing, ETL pipelines, and interactive visualizations. Deployed on AWS EC2 for scalable access.",
-    "image": "assets/images/data-model-schema.png",
+    "image": "assets/images/scopus-data-pipeline.png",
     "link": "https://github.com/abdelghafor-gh/Moroccan-Universities-Scopus-Analysis",
     "stack": [
         "Python",
@@ -28,6 +28,30 @@ const projects = [
         "Developed data transformation scripts for processing Scopus academic data",
         "Designed a scalable architecture supporting multiple warehouse options (PostgreSQL/Snowflake)",
         "Deployed the entire solution on AWS EC2 for reliable cloud hosting"
+    ]
+  },
+  {
+    "title": "AI Trends ChatBot",
+    "description": "A modern AI-powered chat application with a sophisticated Azure-based data pipeline for collecting, processing, and analyzing AI trends in real-time, featuring a multi-layer data architecture and intelligent search capabilities.",
+    "image": "assets/images/ai-trends-chatbot-data-pipeline.png",
+    "link": "https://github.com/abdelghafor-gh/AI-Trends-ChatBot",
+    "stack": [
+        "Azure Functions",
+        "Azure Databricks",
+        "Cosmos DB",
+        "Azure AI Search",
+        "Terraform",
+        "Supabase",
+        "Next.js",
+        "Tailwind CSS"
+    ],
+    "highlights": [
+        "Engineered a robust data pipeline with Azure Functions for automated RSS feed collection",
+        "Implemented a three-layer data architecture (Bronze/Silver/Gold) using Data Lake, Cosmos DB, and AI Search",
+        "Automated infrastructure deployment using Terraform for scalability and maintainability",
+        "Developed Databricks notebooks for sophisticated data transformation and embedding generation",
+        "Built a real-time chat interface with AI-powered insights from processed data",
+        "Created secure authentication system and interactive trend visualizations"
     ]
   },
   {
