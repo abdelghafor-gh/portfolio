@@ -26,10 +26,10 @@ const projects = [
         "Implemented ETL pipelines using Apache Airflow for data orchestration",
         "Created interactive Power BI dashboards for publication trend analysis",
         "Developed data transformation scripts for processing Scopus academic data",
-        "Designed a scalable architecture supporting multiple database options (PostgreSQL/Snowflake)",
+        "Designed a scalable architecture supporting multiple warehouse options (PostgreSQL/Snowflake)",
         "Deployed the entire solution on AWS EC2 for reliable cloud hosting"
     ]
-},
+  },
   {
     title: 'Patent Analysis Platform',
     description:
@@ -74,20 +74,20 @@ const projects = [
       'Created dynamic Power BI dashboards for live insights',
     ],
   },
-  {
-    title: 'Management Control Dashboard',
-    description:
-      'Developement of a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
-    image: 'assets/images/management-control.png',
-    link: 'https://github.com/abdelghafor-gh/Management-Control-Start-Schema-Dashboard',
-    stack: ['Power BI', 'DAX', 'Power BI Service'],
-    highlights: [
-      'Compared Total Sales, Profit, and Units Sold across two time periods',
-      'Performed advanced data preprocessing with Power Query',
-      'Utilized Start Schema for efficient relationships and performance analysis',
-      'Designed interactive visuals and filters for user-friendly analysis'
-    ],
-  },
+  // {
+  //   title: 'Management Control Dashboard',
+  //   description:
+  //     'Developement of a Power BI dashboard to compare sales performance across two time periods, providing actionable insights through interactive visuals and robust data modeling.',
+  //   image: 'assets/images/management-control.png',
+  //   link: 'https://github.com/abdelghafor-gh/Management-Control-Start-Schema-Dashboard',
+  //   stack: ['Power BI', 'DAX', 'Power BI Service'],
+  //   highlights: [
+  //     'Compared Total Sales, Profit, and Units Sold across two time periods',
+  //     'Performed advanced data preprocessing with Power Query',
+  //     'Utilized Start Schema for efficient relationships and performance analysis',
+  //     'Designed interactive visuals and filters for user-friendly analysis'
+  //   ],
+  // },
 ]
 
 const Projects = () => {
