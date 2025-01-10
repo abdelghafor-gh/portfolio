@@ -20,7 +20,7 @@ const experiences = [
       'FastAPI',
       'MongoDB Atlas',
       'Langchain',
-      'Next.js',
+      'NextJS',
       'Tailwind CSS',
       'PostgreSQL',
       'Docker'
