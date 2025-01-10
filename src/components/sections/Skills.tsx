@@ -23,10 +23,9 @@ const skillCategories = [
     title: 'Cloud & Data Platforms',
     skills: [
       'Azure Data Factory',
+      'Azure Data Factory',
       'Databricks',
-      'Snowflake',
-      'Azure Kubernetes',
-      'Azure Container Registry',
+      'Snowflake'
     ],
   },
   {
@@ -46,7 +45,9 @@ const skillCategories = [
     skills: [
       'Scikit Learn',
       'Keras',
+      'Tensorflow',
       'LangChain',
+      'LangGraph',
       'NLTK',
       'spaCy',
       'Hugging Face',
@@ -60,19 +61,21 @@ const skillCategories = [
       'Docker',
       'Kubernetes',
       'GitHub Actions',
-      'GitLab CI/CD',
+      'GitLab',
+      'Terraform',
       'Prometheus',
       'Grafana',
     ],
   },
   {
-    title: 'Web Development',
+    title: 'Frameworks',
     skills: [
       'Spring Boot',
+      'Spring Cloud',
       'FastAPI',
       'Flask',
-      'Next.js',
-      'Tailwind CSS',
+      'NextJS',
+      'Supabase',
     ],
   },
 ]
