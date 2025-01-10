@@ -42,10 +42,10 @@ const projects = [
         "Azure Data Factory",
         "Cosmos DB",
         "Azure AI Search",
+        "Event Grid",
         "Terraform",
-        "Supabase",
         "NextJS",
-        "Tailwind CSS"
+        "Supabase",
     ],
     "highlights": [
         "Engineered a robust data pipeline with Azure Functions for automated RSS feed collection",
