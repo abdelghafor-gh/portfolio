@@ -6,6 +6,31 @@ import { Button } from '@/components/ui/button'
 
 const projects = [
   {
+    "title": "Moroccan Universities Scopus Analysis",
+    "description": "A comprehensive data analytics platform for analyzing academic publications from Moroccan universities using Scopus data, featuring data warehousing, ETL pipelines, and interactive visualizations. Deployed on AWS EC2 for scalable access.",
+    "image": "assets/images/data-model-schema.png",
+    "link": "https://github.com/abdelghafor-gh/Moroccan-Universities-Scopus-Analysis",
+    "stack": [
+        "Python",
+        "PostgreSQL",
+        "Snowflake",
+        "Apache Airflow",
+        "Power BI",
+        "Pandas",
+        "DAX",
+        "Jupyter",
+        "AWS EC2"
+    ],
+    "highlights": [
+        "Built a comprehensive star schema data warehouse for academic publication analysis",
+        "Implemented ETL pipelines using Apache Airflow for data orchestration",
+        "Created interactive Power BI dashboards for publication trend analysis",
+        "Developed data transformation scripts for processing Scopus academic data",
+        "Designed a scalable architecture supporting multiple database options (PostgreSQL/Snowflake)",
+        "Deployed the entire solution on AWS EC2 for reliable cloud hosting"
+    ]
+},
+  {
     title: 'Patent Analysis Platform',
     description:
       'A comprehensive platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
@@ -61,26 +86,6 @@ const projects = [
       'Performed advanced data preprocessing with Power Query',
       'Utilized Start Schema for efficient relationships and performance analysis',
       'Designed interactive visuals and filters for user-friendly analysis'
-    ],
-  },
-  {
-    title: 'Political Opinions Analysis',
-    description:
-      'Analysis of international opinions on the Palestinian-Israeli conflict through YouTube comments using advanced NLP techniques.',
-    image: 'assets/images/top-10-voted.png',
-    link: 'https://github.com/abdelghafor-gh/Political-Opinion-Analysis-on-Palestinian-Israeli-Conflict',
-    stack: [
-      'BERT',
-      'Hugging Face',
-      'Azure Translator',
-      'Scikit-learn',
-      'Apify',
-    ],
-    highlights: [
-      'Analyzed international opinions through YouTube comments',
-      'Implemented web scraping and manual data labeling',
-      'Fine-tuned BERT for sentiment analysis',
-      'Integrated Azure Translator for multi-language support',
     ],
   },
 ]
