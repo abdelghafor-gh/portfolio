@@ -18,6 +18,7 @@ const projects = [
         "Power BI",
         "Pandas",
         "DAX",
+        "Power Query",
         "Jupyter",
         "AWS EC2"
     ],
@@ -38,11 +39,12 @@ const projects = [
     "stack": [
         "Azure Functions",
         "Azure Databricks",
+        "Azure Data Factory",
         "Cosmos DB",
         "Azure AI Search",
         "Terraform",
         "Supabase",
-        "Next.js",
+        "NextJS",
         "Tailwind CSS"
     ],
     "highlights": [
