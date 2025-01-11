@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 const projects = [
   {
     "title": "Moroccan Universities Scopus Analysis",
-    "description": "A comprehensive data analytics platform for analyzing academic publications from Moroccan universities using Scopus data, featuring data warehousing, ETL pipelines, and interactive visualizations. Deployed on AWS EC2 for scalable access.",
+    "description": "Data analytics platform for analyzing academic publications from Moroccan universities using Scopus data, featuring data warehousing, ETL pipelines, and interactive visualizations. Deployed on AWS EC2 for scalable access.",
     "image": "assets/images/scopus-data-pipeline.png",
     "link": "https://github.com/abdelghafor-gh/Moroccan-Universities-Scopus-Analysis",
     "stack": [
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     "title": "AI Trends ChatBot",
-    "description": "A modern AI-powered chat application with a sophisticated Azure-based data pipeline for collecting, processing, and analyzing AI trends in real-time, featuring a multi-layer data architecture and intelligent search capabilities.",
+    "description": "AI-powered chat application with an Azure-based data pipeline to scrape, process, and analyze daily AI news in real-time. The system uses a multi-layer medallion architecture and intelligent search capabilities to power a chatbot that answers questions about the latest AI trends and developments.",
     "image": "assets/images/ai-trends-chatbot-data-pipeline.png",
     "link": "https://github.com/abdelghafor-gh/AI-Trends-ChatBot",
     "stack": [
@@ -64,7 +64,7 @@ const projects = [
   {
     title: 'Patent Analysis Platform',
     description:
-      'A comprehensive platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
+      'Platform for exploring and analyzing patents in Education and AI, featuring web scraping, data warehousing, and dynamic visualizations.',
     image: 'assets/images/e-patent-data-transformation.png',
     link: 'https://github.com/abdelghafor-gh/E-Patent',
     stack: [
@@ -85,7 +85,7 @@ const projects = [
   {
     title: 'Real-Time Foot Traffic Monitoring',
     description:
-      'A real-time foot traffic monitoring system using lambda architecture and computer vision, providing dynamic insights across different zones.',
+      'Real-time foot traffic monitoring system using lambda architecture and computer vision, providing dynamic insights across different zones.',
     image: 'assets/images/real-time-lambda-architecture.png',
     link: 'https://github.com/abdelghafor-gh/Real-Time-Foot-Traffic-Monitoring-Lambda-Architecture',
     stack: [
